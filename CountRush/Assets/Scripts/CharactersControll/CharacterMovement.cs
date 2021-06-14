@@ -5,7 +5,6 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     public bool canMove = false;
-    public float decreasedMoveSpeed;
     public float posZ;
     [Range(0,1)]
     public float sensitivityMultiplier;
